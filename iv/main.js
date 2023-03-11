@@ -1,0 +1,1 @@
+let rellax = new Rellax('.rellax'); // apply on class='rellax'

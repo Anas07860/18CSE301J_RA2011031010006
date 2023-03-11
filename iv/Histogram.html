@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Laptops & Mobiles Distribution-Histogram</title>
+    <!-- Load D3.js -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+      /* Define CSS styles for the chart */
+      .bar1 {
+        fill: rgb(191, 0, 0);
+      }
+      .bar2 {
+        fill: rgb(204, 240, 0);
+      }
+      .axis-label {
+        font-size: 14px;
+        font-weight: bold;
+      }
+      body {
+        background-color: #2d2254;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Laptop and Mobile by Year</h1>
+
+    <div id="chart"></div>
+
+    <script>
+      // Define the data for the chart
+      var data1 = [4, 6, 7, 56, 103, 108, 139, 65];
+      var data2 = [8, 14, 35, 168, 559, 631, 675, 153];
+
+      // Define the years for the chart
+      var years = d3.range(2010, 2018);
+
+      // Set the dimensions of the chart
+      var width = 600,
+        height = 400,
+        margin = 50;
+
+      // Create the SVG container for the chart
+      var svg = d3
+        .select("#chart")
+        .append("svg")
+        .attr("width", width + margin * 2)
+        .attr("height", height + margin * 2)
+        .append("g")
+        .attr("transform", "translate(" + margin + "," + margin + ")");
+
+      // Define the scale for the chart
+      var x = d3.scaleBand().domain(years).range([0, width]).padding(0.1);
+
+      var y = d3
+        .scaleLinear()
+        .domain([0, d3.max(data1.concat(data2))])
+        .range([height, 0]);
+
+      // Create the bars for the chart
+      svg
+        .selectAll(".bar1")
+        .data(data1)
+        .enter()
+        .append("rect")
+        .attr("class", "bar1")
+        .attr("x", function (d, i) {
+          return x(years[i]);
+        })
+        .attr("y", function (d) {
+          return y(d);
+        })
+        .attr("width", x.bandwidth() / 2)
+        .attr("height", function (d) {
+          return height - y(d);
+        });
+
+      svg
+        .selectAll(".bar2")
+        .data(data2)
+        .enter()
+        .append("rect")
+        .attr("class", "bar2")
+        .attr("x", function (d, i) {
+          return x(years[i]) + x.bandwidth() / 2;
+        })
+        .attr("y", function (d) {
+          return y(d);
+        })
+        .attr("width", x.bandwidth() / 2)
+        .attr("height", function (d) {
+          return height - y(d);
+        });
+
+      // Add the X axis to the chart
+      svg
+        .append("g")
+        .attr("transform", "translate(0," + height + ")")
+        .call(d3.axisBottom(x));
+
+      // Add the Y axis to the chart
+      svg.append("g").call(d3.axisLeft(y));
+
+      // Add the axis labels to the chart
+      svg
+        .append("text")
+        .attr("class", "axis-label")
+        .attr("x", width / 2)
+        .attr("y", height + margin)
+        .attr("fill", "white")
+        .style("text-anchor", "middle")
+        .text("Year");
+
+      svg
+        .append("text")
+        .attr("fill","white")
+        .attr("class", "axis-label")
+        .attr("transform", "rotate(-90)")
+        .attr("x", -height / 2)
+        .attr("y", margin.axisLeft + width)
+        .style("text-anchor", "middle")
+        .text("Y Axis Label");
+
+      svg
+        .append("circle")
+        .attr("cx", 200)
+        .attr("cy", 30)
+        .attr("r", 6)
+        .style("fill", "rgb(204, 240, 0)");
+      svg
+        .append("circle")
+        .attr("cx", 200)
+        .attr("cy", 60)
+        .attr("r", 6)
+        .style("fill", "rgb(191, 0, 0)");
+      svg
+        .append("text")
+        .attr("x", 220)
+        .attr("y", 30)
+        .text("MOBILES")
+        .style("font-size", "15px")
+        .attr("alignment-baseline", "middle")
+        .attr("fill", "white");
+      svg
+        .append("text")
+        .attr("x", 220)
+        .attr("y", 60)
+        .text("LAPTOP")
+        .style("font-size", "15px")
+        .attr("alignment-baseline", "middle")
+        .attr("fill", "white");
+    </script>
+  </body>
+</html>
