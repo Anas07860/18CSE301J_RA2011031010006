@@ -1,6 +1,6 @@
 # 18CSE301J_RA2011031010006
-<img src="https://tse1.mm.bing.net/th?id=OIP.rzXaHh6uQkmK815GUum0mQHaD5&pid=Api&P=0">
-
+<img src="https://visme.co/blog/wp-content/uploads/2021/08/Data-Visualization-Header.jpg">
+<p>In this repository, we analyzed datasets of different scenarios using the following software<p>
 
 # Tableau Public
 
@@ -42,5 +42,7 @@
 **Gephi** is an open-source software for network visualization and analysis. It helps data analysts to intuitively reveal patterns and trends, highlight outliers and tells stories with their data. It uses a 3D render engine to display large graphs in real-time and to speed up the exploration. Gephi combines built-in functionalities and flexible architecture
 ## Resources
 
-* [Introduction](hhttps://gephi.org/about/)
+* [Introduction](https://gephi.org/about/)
 * [Wiki](https://en.wikipedia.org/wiki/Gephi)
+  
+  
