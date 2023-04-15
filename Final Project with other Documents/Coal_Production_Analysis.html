@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coal Production</title>
+    <link rel="icon" href="images/images (1).png" type="image/x-icon">
+
+    <script
+      src="https://kit.fontawesome.com/7a4b62b0a4.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --lighting-color: black;
+  --dark-color: white;
+  --darker-color: #00b7b7;
+  --secondary-color: #fff700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body,
+html {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+  color: white;
+}
+body {
+  font-size: 1.4rem;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--lighting-color);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+#hero {
+  background: var(--dark-color);
+  padding: 4rem 0;
+  border-bottom: 4px solid var(--lighting-color);
+  max-height: 100vh;
+  
+}
+
+.box {
+  position: relative;
+  height:  50px;
+  width: 1550px;
+  display: block;
+  background: linear-gradient(0deg, black, #444444);
+}
+
+.glowing::before{
+  content: '';
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(45deg, #e8f74d, #ff6600d9, #00ff66, #13ff13, #ad27ad, #bd2681, #6512b9, #ff3300de, #5aabde);
+  background-size: 400%;
+  width: calc(100% + 5px);
+  height: calc(100% + 8px);
+  z-index: -1;
+  animation: glower 20s linear infinite;
+}
+
+@keyframes glower {
+  0% {
+    background-position: 0 0;
+  }
+  
+  50% {
+    background-position: 400% 0;
+  }
+  
+  100% {
+    background-position: 0 0;
+  }
+}
+
+
+/* Footer */
+
+footer {
+  background: var(--darker-color);
+  padding: 2rem;
+  color: white;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+
+    </style>
+  </head>
+  <body>
+    <header><center>
+        <div class="box glowing"><h1 style="color: white;">Coal Production (World Wise 1990-2020)</h1></center></div></div>
+      </nav>
+    </header>
+    <main>
+
+        <center><div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/13389281"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+        </center>
+
+    </main>
+    <footer>
+      <hr><div class="container">Analysis by Anas | Sharwan | Prithvi | Shivam | Kartik | Vanshit &copy; 2023</div>
+    </footer>
+  </body>
+</html>
