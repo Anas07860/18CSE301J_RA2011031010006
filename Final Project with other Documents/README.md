@@ -44,5 +44,7 @@ Finally, by analyzing data and identifying trends and patterns, stakeholders can
 
 **Researchers and academics:** Scholars and researchers from various fields, including economics, geography, and history, may be interested in studying coal production trends for academic purposes.</p>
 
+* # Video
+<a href="https://drive.google.com/file/d/1K84mNkDoJYB6eIkgUCGInyYh42LT3nIB/view?usp=sharing">Coal Production Analysis (World Wise 1990-2021)-(1080p).mp4</a>
 * ## Conclusion :
 In conclusion, analyzing coal production all over the world is essential for understanding the global energy market and making informed decisions about the use of this valuable resource. Through the use of data analysis techniques, stakeholders can identify trends, predict future developments, and make decisions that will ensure the sustainable use of coal for years to come.
