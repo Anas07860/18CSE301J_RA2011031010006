@@ -48,3 +48,17 @@ Finally, by analyzing data and identifying trends and patterns, stakeholders can
 <a href="https://drive.google.com/file/d/1K84mNkDoJYB6eIkgUCGInyYh42LT3nIB/view?usp=sharing">Coal Production Analysis (World Wise 1990-2021)-(1080p).mp4</a>
 * ## Conclusion :
 In conclusion, analyzing coal production all over the world is essential for understanding the global energy market and making informed decisions about the use of this valuable resource. Through the use of data analysis techniques, stakeholders can identify trends, predict future developments, and make decisions that will ensure the sustainable use of coal for years to come.
+
+* ## Contributors
+<table>
+<tr align="center">
+<table>
+  <tbody>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Anas07860/18CSE301J_RA2011031010006"><img src="https://avatars.githubusercontent.com/u/83367511?s=400&u=dbd68932ad658f824691e972e910c930528bf8f7&v=4" width="100px;" alt="Anas Ahmed Ather"/><br /><sub><b>Anas Ahmed Ather</b></sub></a><br /><a href="#content-Anas07860" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Pritvii/18CSE301J_RA2011031010023"><img src="https://avatars.githubusercontent.com/u/93939598?v=4" width="100px;" alt="Prithvi Singh Kirar"/><br /><sub><b>Prithvi Singh Kirar</b></sub></a><br /><a href="#content-Prithvii" title="Content">🖋</a> </td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Sharwannnn/18CSE301J-RA2011031010034"><img src="https://avatars.githubusercontent.com/u/83391706?v=4" width="100px;" alt="Sharwan Kumar"/><br /><sub><b>Sharwan Kumar</b></sub></a><br /><a href="#content-Sharwannnn" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/kj6219/18CSE301J_RA2011031010060"><img src="https://avatars.githubusercontent.com/u/94636524?v=4" width="100px;" alt="Kartik Jaiswal"/><br /><sub><b>Kartik Jaiswal</b></sub></a><br /><a href="#content-kj6219" title="Content">🖋</a> </td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Shivam9737/18CSE301J_RA2011031010066"><img src="https://avatars.githubusercontent.com/u/75661227?v=4" width="100px;" alt="Shivam Kumar"/><br /><sub><b>Shivam Kumar</b></sub></a><br /><a href="#content-Shivam9737" title="Content">🖋</a></td>
+ <td align="center" valign="top" width="14.28%"><a href="https://github.com/VanshitRawat/18CSE301J_RA2011031010067"><img src="https://avatars.githubusercontent.com/u/94633507?v=4" width="100px;" alt="Vanshit Rawat"/><br /><sub><b>Vanshit Rawat</b></sub></a><br /><a href="#content-VanhitRawat" title="Content">🖋</a></td>
